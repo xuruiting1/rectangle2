@@ -5,6 +5,7 @@
   "main": "Gruntfile.js",
   "dependencies": {},
   "devDependencies": {
+    "eslint": "^5.15.3",
     "grunt": "^1.0.3",
     "grunt-contrib-csslint": "^2.0.0",
     "grunt-eslint": "^21.0.0",

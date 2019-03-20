@@ -1,0 +1,26 @@
+{
+  "name": "rectangle2",
+  "version": "1.0.0",
+  "description": "输入的矩形的长度和宽度计算矩形的周长和面积",
+  "main": "Gruntfile.js",
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "^1.0.3",
+    "grunt-contrib-csslint": "^2.0.0",
+    "grunt-eslint": "^21.0.0",
+    "grunt-htmlhint": "^0.9.13"
+  },
+  "scripts": {
+    "test": "grunt lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xuruiting1/rectangle2.git"
+  },
+  "author": "xuruiting1",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xuruiting1/rectangle2/issues"
+  },
+  "homepage": "https://github.com/xuruiting1/rectangle2#readme"
+}

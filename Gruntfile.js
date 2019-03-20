@@ -23,13 +23,24 @@ module.exports = function (grunt) {
     },
     src: '*.html'
 
+  },
+  mocha:{
+    test:{
+      src:['test/index.html'],
+    },
+    options:{
+      run:true,
+      reporter:'Spec'
+    }
   }
 
   });
 
-  //grunt.loadNpmTasks('grunt-contrib-csslint');
+  grunt.loadNpmTasks('grunt-contrib-csslint');
   grunt.loadNpmTasks('grunt-htmlhint');
   grunt.loadNpmTasks('grunt-eslint');
-  grunt.registerTask('lint', ['htmlhint', 'eslint']);
+  grunt.loadNpmTasks('grunt-mocha');
+  grunt.registerTask('lint', ['htmlhint','eslint']);
+  grunt.registerTask('unitTest', ['mocha']);
 
 };

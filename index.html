@@ -2,18 +2,24 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
   <title>矩形计算器</title>
   <link rel="stylesheet" href="rectangle.css">
+  <link rel="icon" href="https://i.wangding.in/favicon.ico" sizes="48x48" type="image/png">
 </head>
 <body>
-  <div>
+  <div id="main">
     <h2>矩形计算器</h2>
   <label for="">高度：</label>
-    <input id="height" type="text">
+    <input id="height" type="text" autofocus>
+    <span>*</span>
     <br>
+    <div id="height-validation"></div>
     <label for="">宽度：</label>
-    <input type="" id="width">
+    <input type="" id="width"autofocus >
+    <span>*</span>
     <br>
+    <div id="width-validation"></div>
     <label for=""></label>
     <input type="button" value="计算" id="calculate">
     <br>
